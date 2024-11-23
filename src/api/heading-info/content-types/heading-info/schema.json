@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "heading_infos",
+  "info": {
+    "singularName": "heading-info",
+    "pluralName": "heading-infos",
+    "displayName": "Heading Info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "string"
+    },
+    "links": {
+      "type": "json"
+    }
+  }
+}
