@@ -1,10 +1,11 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "heading_infos",
   "info": {
     "singularName": "heading-info",
     "pluralName": "heading-infos",
-    "displayName": "Heading Info"
+    "displayName": "Heading Info",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
