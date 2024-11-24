@@ -425,9 +425,10 @@ export interface ApiExperienceExperience extends Struct.CollectionTypeSchema {
   };
 }
 
-export interface ApiHeadingInfoHeadingInfo extends Struct.CollectionTypeSchema {
+export interface ApiHeadingInfoHeadingInfo extends Struct.SingleTypeSchema {
   collectionName: 'heading_infos';
   info: {
+    description: '';
     displayName: 'Heading Info';
     pluralName: 'heading-infos';
     singularName: 'heading-info';
